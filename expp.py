@@ -7,6 +7,7 @@ This example shows how scikit-learn can be used to recognize images of
 hand-written digits, from 0-9.
 
 """
+#hello testing
 
 # Author: Gael Varoquaux <gael dot varoquaux at normalesup dot org>
 # License: BSD 3 clause
@@ -134,3 +135,6 @@ print(
     "Classification report rebuilt from confusion matrix:\n"
     f"{metrics.classification_report(y_true, y_pred)}\n"
 )
+print(f"Total no of samples: {len(X)}")
+print(f"Image size : {X[0].shape}")
+print("hello")
