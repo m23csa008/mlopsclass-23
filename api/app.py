@@ -28,7 +28,6 @@ file_path = os.path.join(folder_path, matching_files[0])
 
 model = load(file_path)
 
-# model = load('./models/Production_Model_svm_(0.001, 1).joblib')
 
 @app.route("/hello/<val>")
 def hello_world(val):
