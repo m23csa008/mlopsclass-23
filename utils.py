@@ -96,4 +96,4 @@ def tune_hparams(X_train, Y_train, X_dev, y_dev, list_of_all_param_combination, 
     # save the best model
     dump(best_model,best_model_path)
     #best_model_path = 
-    return best_hparams, best_model_path, best_accuracy_so_fa
+    return best_hparams, best_model_path, best_accuracy_so_far
